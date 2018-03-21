@@ -65,9 +65,8 @@ p {
 }
 
 .info-block{
-  padding: 50px;
-  border-radius: 5px;
-  font-family: helvetica;
+  padding: 35px;
+  font-family: "Pt", sans-serif;
   background-color:#FFCE8C;
 }
 
