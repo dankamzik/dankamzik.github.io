@@ -5,10 +5,11 @@
 
 .title {
   text-align: center;
-  background-color: #add8e6;
+  background-image: url("../pics/logs.jpg");
   font-family: "Fontin", sans-serif;
   padding-bottom: 5em;
   padding-top:5em;
+  color: white;
 }
 
 h1 {
@@ -25,11 +26,11 @@ p {
 
 .container-fluid {
   text-align: center;
-  background-color: #add8e6;
+  background-color: #381B14;
   font-family: "Fontin", sans-serif;
-  padding-bottom: 5em;
-  padding-top:5em;
+
 }
+
 
 .container-projects {
   text-align: center;
@@ -41,10 +42,18 @@ p {
 
 .container-contact {
   text-align: center;
-  background-color: #add8e6;
+  background-image: url("../pics/stainedwood.jpg");
   font-family: "Fontin", sans-serif;
-  padding-bottom: 5em;
+  padding-bottom: 10em;
   padding-top:5em;
+  color:white;
+}
+
+.container-contact .container-contactinfo{
+  text-align: center;
+  padding-bottom: 2em;
+  font-size: 2em;
+  padding-left:13.25em;
 }
 
 .nav-item {
@@ -55,56 +64,33 @@ p {
   border-bottom: 1px solid transparent;
 }
 
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-
-/* Add a background color and some padding around the form */
-.form-block, .info-block {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-}
-
 .info-block{
+  padding: 50px;
+  border-radius: 5px;
   font-family: helvetica;
-}
-.container-fluid.footer{
-  background-color: #add8e6;
-}
-.footer p {
-  text-align:center;
-  font-size: 1.5em;
+  background-color:#FFCE8C;
 }
 
 .projects-wrapper{
-  background-color: #DAF0F8;
+  background-image: url("../pics/cutlogs.jpg");
   padding-top: 1em;
-  padding-bottom: 1em;
+  padding-bottom: 2em;
+  color:white;
 }
 
-.buttons{
+.container-projects{
+  padding-bottom:1em;
+}
+.row{
+  padding-top:2em;
+  padding-bottom:2em;
+}
 
+.btn{
+background-color: #381B14;
+border-color:#FFCE8C;
+padding: 10px 20px;
+font-size: 20px;
+border-radius: 10px;
+width: 33%;
 }
