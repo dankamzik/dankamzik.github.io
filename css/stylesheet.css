@@ -95,8 +95,12 @@ width: 33%;
 
 }
 
-a.btn-info:hover{
-    background-color: #FFCE8C;
-    color: black;
-    border-color:#381B14;
+a.btn-info:hover, a.btn-info.btn:active {
+    background-color: #FFCE8C !important;
+    color: black !important;
+    border-color:#381B14 !important;
+}
+
+a.btn-info.btn:focus{
+  box-shadow:none;
 }
