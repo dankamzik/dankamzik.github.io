@@ -1,0 +1,206 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+@font-face {
+    font-family:'NimbusSan';
+    src: url('../NimbusSan-Reg.woff');
+    font-weight: 400;
+}
+@font-face {
+    font-family:'NimbusSan';
+    src: url('../NimbusSan-Bol.woff');
+    font-weight:700;
+}
+
+@font-face {
+    font-family:'NimbusSan';
+    src: url('../NimbusSan-RegIta.woff');
+    font-weight:400;
+    font-style: italic;
+}
+@font-face {
+    font-family:'NimbusSan';
+    src: url('../NimbusSan-BolIta.woff');
+    font-weight:700;
+    font-style: italic;
+}
+@font-face {
+    font-family:'DiplomaScript';
+    src: url('../DiplomaScript-Basic.woff');
+    font-weight:400;
+}
+
+@font-face {
+    font-family:'NimbusSan';
+    src: url('../NimbusSanExt-Lig.woff');
+    font-weight:100;
+}
+
+// Our variables
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #fefefe;
+$background-color: #111111;
+$brand-color:      #A48051;
+
+$black:            #111111;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;
+
+body {
+  //background-color: $black !important;
+}
+
+.home {
+  .section {
+    background-color: $black;
+    color: $text-color;
+  }
+  h1 {
+    color: $brand-color;
+    text-align: center;
+  }
+}
+.home {
+  .banner-section {
+    h1 {
+      text-align: center;
+      font-size:10em;
+      margin-bottom: 0;
+      padding: 200px 0;
+      .beauty {
+font-family:'NimbusSan';
+font-weight:100;
+      }
+      .utility {
+font-family:'NimbusSan';
+font-weight: 700;
+      }
+      .elegance {
+font-family:'DiplomaScript';
+font-size: 1.5em;
+      }
+    }
+  }
+}
+
+.home .intro-section.section{
+  padding:50px;
+}
+
+.home .intro-section.section .intro{
+  padding:50px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.buttons-section.section{
+  color: $brand-color;
+}
+.buttons-section.section .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+.buttons-section.section button {
+background-color: black;
+    border: 10px;
+    border-color: #A48051;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 60%;
+}
+.contact-section.section p{
+  text-align: center;
+  padding: 50px;
+}
+
+.buttons i {
+    font-size: 3em;
+    color: #fff;
+}
+
+.buttons a{
+background-color: transparent;
+border: none;
+padding: 100px;
+border-radius: 0;
+}
+
+.buttons a:hover{
+  background-color:#A48051;
+  color:#A48051;
+}
+
+.page-content{
+  padding: 0;
+  margin: 0;
+}
+
+.contact-section p{
+  margin:0;
+}
+
+.blog-link{
+display: flex;
+flex-direction: column;
+text-align: center;
+color: white;
+padding-top:15px;
+padding-bottom: 15px;
+}
+
+.posts-section.section{
+  padding-bottom: 100px;
+}
+a.blog-link:hover{
+  color:#A48051;
+}
