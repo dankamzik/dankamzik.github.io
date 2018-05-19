@@ -32,9 +32,9 @@ icons:
       <span class="elegance">Elegance</span>
     </h1>
   </div>
-
+<div class="container">
   <div class="intro-section section">
-    <h1>Web Development Solutions</h1>
+    <h1 class="centerlines">Web Development Solutions</h1>
     <div class="intro">
       <p>
       The perfect blend between utility and beauty is not easy to achieve.
@@ -45,7 +45,7 @@ icons:
         <br />
         My name is <b>Daniel Kamzik</b> and I am a Web Developer.<br />
         <br />
-        I specialize in front-end web development and have knowlege of the adobe suite, interaction design, sound design and so much more!<br />
+        I specialize in front-end web development and have knowlege of the adobe suite, interaction design, sound design and much more.<br />
         <br />
         Below are links to examples of my work and self generated content.<br />
         Please, enjoy!
@@ -54,25 +54,35 @@ icons:
   </div>
 
   <div class="buttons-section section">
-    <h1>Projects</h1>
+    <div class="container">
+    <h1 class="centerlines">Projects</h1>
+  </div>
      <div class="buttons">
        {% for link in page.icons %}
-        <a href={{link.url}} title={{link.name}} class="btn btn-primary"><i class="{{link.iconset}} {{link.icon}}"></i></a>
+       <div class="individual-button">
+         <a href={{link.url}} title={{link.name}} class="btn btn-primary"><i class="{{link.iconset}} {{link.icon}}"></i></a>
+         <p>{{link.name}}</p>
+       </div>
        {% endfor %}
     </div>
   </div>
+
 
   <div class="posts-section section">
-    <h1>Blog</h1>
-     <div class="blog">
-       {% for post in site.posts %}
-        <a href={{post.url}} title={{post.title}} class="blog-link">{{post.title}}</a>
-       {% endfor %}
+    <div class="container">
+      <h1 class="centerlines">Blog</h1>
+       <div class="blog">
+         {% for post in site.posts %}
+          <a href={{post.url}} title={{post.title}} class="blog-link">{{post.title}}</a>
+         {% endfor %}
+      </div>
     </div>
   </div>
 
+
   <div class="contact-section section">
-    <h1>Contact</h1>
+    <div class="container">
+    <h1 class="centerlines">Contact</h1>
     <p>
       ~Drop me a line, I'm always listening~<br /><br />
       Email: dankamzikdevelopment@gmail.com&nbsp;&nbsp;&nbsp;
