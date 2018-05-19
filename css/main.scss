@@ -91,6 +91,7 @@ $on-laptop:        800px;
 
 body {
   //background-color: $black !important;
+  background-color: #111111 !important;
 }
 
 .home {
@@ -127,7 +128,9 @@ font-size: 1.5em;
 }
 
 .home .intro-section.section{
-  padding:50px;
+  padding-bottom: 8em;
+  padding-top:2em;
+  color:#FFFDD0;
 }
 
 .home .intro-section.section .intro{
@@ -135,15 +138,53 @@ font-size: 1.5em;
   max-width: 1000px;
   margin: 0 auto;
 }
+.intro-section.section h1{
+  font-family:'DiplomaScript';
+  font-weight: 400;
+  font-size:5em;
+  padding-top: 1em;
+  overflow: hidden;
+  text-align: center;
+}
+
+h1.centerlines{
+overflow: hidden;
+text-align: center;}
+h1.centerlines:before,
+h1.centerlines:after {
+ background-color: $brand-color;
+ content: "";
+ display: inline-block;
+ height: 1px;
+ position: relative;
+ vertical-align: middle;
+ width: 50%;
+}
+h1.centerlines:before {
+ right: 0.5em;
+ margin-left: -50%;
+}
+h1.centerlines:after {
+ left: 0.5em;
+ margin-right: -50%;
+}
+
 
 .buttons-section.section{
   color: $brand-color;
+}
+.buttons-section.section h1{
+  font-family:'NimbusSan';
+  font-weight: 400;
+  margin: 0 !important;
+  padding: 1em !important;
 }
 .buttons-section.section .buttons {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding: 50px;
+  padding-bottom: 8em;
+  padding-top:2em;
 }
 .buttons-section.section button {
 background-color: black;
@@ -165,19 +206,26 @@ background-color: black;
 
 .buttons i {
     font-size: 3em;
-    color: #fff;
+    color: white;
 }
 
 .buttons a{
 background-color: transparent;
 border: none;
-padding: 100px;
+padding: 50px;
 border-radius: 0;
 }
 
 .buttons a:hover{
   background-color:#A48051;
-  color:#A48051;
+}
+
+.buttons a:hover i {
+    color: black;
+}
+
+div.individual-button p{
+  color:#FFFDD0;
 }
 
 .page-content{
@@ -193,14 +241,68 @@ border-radius: 0;
 display: flex;
 flex-direction: column;
 text-align: center;
-color: white;
-padding-top:15px;
-padding-bottom: 15px;
+color: #FFFDD0;
+padding-top:1em;
+padding-bottom: 1em;
 }
 
 .posts-section.section{
-  padding-bottom: 100px;
+  padding-bottom: 8em;
+  padding-top: 2em;
 }
+
+.posts-section.section h1{
+  font-family:'NimbusSan';
+  font-weight: 400;
+  padding-bottom:25px;
+}
+
 a.blog-link:hover{
-  color:#A48051;
+  color: $brand-color;
+}
+
+div.button-names{
+  font-size: 1.5em;
+  display:flex;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  justify-content:space-evenly;
+  color:white;
+  flex-direction:row;
+  padding-bottom: 100px;
+  padding-top: 0 !important;
+  max-width:1800px;
+}
+
+.contact-section.section h1{
+  font-family:'NimbusSan';
+  font-weight: 400;
+}
+
+div.contact-section.section{
+  padding-bottom: 2.5em;
+  padding-top: 2em;
+}
+
+div.contact-section.section p{
+  color: #FFFDD0;
+}
+
+/*Gallery Label Spacing*/
+div.individual-button{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+
+.individual-button p {
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    margin-bottom: 5em;
+}
+
+/*Blog Link Styling*/
+a:visited{
+  color: #FFFDD0;
 }
