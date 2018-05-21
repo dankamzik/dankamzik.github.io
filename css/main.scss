@@ -122,6 +122,8 @@ font-weight: 700;
       .elegance {
 font-family:'DiplomaScript';
 font-size: 1.5em;
+display: block;
+padding-top:.5em;
       }
     }
   }
@@ -146,6 +148,8 @@ font-size: 1.5em;
   overflow: hidden;
   text-align: center;
 }
+
+/*HEADER LINES*/
 
 h1.centerlines{
 overflow: hidden;
@@ -313,7 +317,7 @@ a:visited{
   .intro-section.section h1{
     font-family:'DiplomaScript';
     font-weight: 400;
-    font-size:3em;
+    font-size:2em;
     padding-top: .2em;
     overflow: hidden;
     text-align: center;
@@ -347,3 +351,22 @@ a:visited{
     }
   }
  }
+
+@media (max-width: 767px) {
+  .home .intro-section.section{
+    padding-bottom: 3em;
+    padding-top:2em;
+    color:#FFFDD0;
+  }
+  .buttons-section.section .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 4em;
+    padding-top:2em;
+  }
+  .buttons i {
+      font-size: 2em;
+      color: white;
+  }
+}
