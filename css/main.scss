@@ -135,6 +135,7 @@ font-family:'DiplomaScript';
 font-size: 1.5em;
 display: block;
 padding-top:.5em;
+color:white;
       }
     }
   }
@@ -158,6 +159,10 @@ padding-top:.5em;
   padding-top: 1em;
   overflow: hidden;
   text-align: center;
+}
+
+.intro-section.section h1.centerlines{
+    color:#F0D6B5;
 }
 
 /*HEADER LINES*/
@@ -194,6 +199,7 @@ h1.centerlines:after {
   font-weight: 400;
   margin: 0 !important;
   padding: 1em !important;
+  color:#F0D6B5;
 }
 .buttons-section.section .buttons {
   display: flex;
@@ -272,6 +278,7 @@ padding-bottom: 1em;
   font-family:'NimbusSan';
   font-weight: 400;
   padding-bottom:25px;
+  color:#F0D6B5;
 }
 
 a.blog-link:hover{
@@ -294,6 +301,7 @@ div.button-names{
 .contact-section.section h1{
   font-family:'NimbusSan';
   font-weight: 400;
+  color:#F0D6B5;
 }
 
 div.contact-section.section{
