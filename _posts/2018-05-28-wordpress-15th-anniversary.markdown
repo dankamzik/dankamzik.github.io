@@ -6,6 +6,7 @@ categories: Digital Life
 ---
 
 Daniel Kamzik
+
 5/27/2018
 
 Hello All,

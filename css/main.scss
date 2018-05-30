@@ -95,12 +95,14 @@ body {
   color: white;
 }
 
-body p, h1.post-title{
-  color: white;
+body p{
+  color: #F0D6B5;
 }
 
 h1.post-title{
   color: #167AA1;
+  margin-bottom: 25px;
+  margin-top: 25px;
 }
 
 .home {
@@ -145,7 +147,7 @@ padding-top:.5em;
 }
 
 .home .intro-section.section .intro{
-  padding:50px;
+  padding-top: 75px;
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -182,6 +184,7 @@ h1.centerlines:after {
  margin-right: -50%;
 }
 
+/*BUTTONS*/
 
 .buttons-section.section{
   color: $brand-color;
@@ -239,6 +242,7 @@ border-radius: 0;
 
 div.individual-button p{
   color:#F0D6B5;
+  margin-top: 25px;
 }
 
 .page-content{
@@ -403,4 +407,10 @@ a:visited{
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #1111111;
+}
+
+/*BLOG PAGE STYLING*/
+
+.site-nav{
+  display: none;
 }
