@@ -125,17 +125,19 @@ h1.post-title{
       .beauty {
 font-family:'NimbusSan';
 font-weight:100;
+color:#F5EDD9;
       }
       .utility {
 font-family:'NimbusSan';
 font-weight: 700;
+color:#F5EDD9;
       }
       .elegance {
 font-family:'DiplomaScript';
 font-size: 1.5em;
 display: block;
 padding-top:.5em;
-color:white;
+color:$brand-color;
       }
     }
   }
@@ -228,7 +230,7 @@ background-color: black;
 
 .buttons i {
     font-size: 3em;
-    color: white;
+    color: #F5EDD9;
 }
 
 .buttons a{
