@@ -23,4 +23,4 @@ as well as their goals and aspirations for the future. I exchanged cards with pe
 
 See you soon!
 
-End transmission.
+-End transmission-
