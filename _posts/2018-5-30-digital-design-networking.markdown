@@ -22,5 +22,3 @@ I mingled for around two full hours and was never bored. I was able to discuss b
 as well as their goals and aspirations for the future. I exchanged cards with people and feel that the experience alone was worth the trip.
 
 See you soon!
-
--End transmission-

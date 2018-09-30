@@ -27,5 +27,3 @@ For any who are interested, I will be posting our group’s build into Github. I
 The code I used is open source; feel free to borrow from our build or add onto it for your own purposes.
 <br>
 See you soon!
-<br>
--End Transmission-
