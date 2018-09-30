@@ -26,5 +26,3 @@ Hello All,
 https://2018.nyc.wordcamp.org/
 
 See you soon!
-
--End Transmission-

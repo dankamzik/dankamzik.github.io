@@ -53,4 +53,4 @@ Initializing a View:
 2. Nav to Appearance, Menus
 3. Select your view from the left hand check box Menu
 4. Drag and drop new menu item to wherever you want it in the order
-5.Click "save Menu"
+5. Click "save Menu"
