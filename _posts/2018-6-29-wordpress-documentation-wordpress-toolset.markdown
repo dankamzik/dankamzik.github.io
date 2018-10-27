@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "WordPress Docuentation: WordPress Toolset"
+title:  "WordPress Documentation: WordPress Toolset"
 date:   2018-06-26 10:38:00 -0400
 categories: Digital Life
 ---
