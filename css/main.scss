@@ -432,3 +432,13 @@ ol li{
 ul li{
   color:#F0D6B5;
 }
+
+/*Websites Sub-Page Styling*/
+ .logo-container .logo-item {
+  display: block;
+  width: 24%; 
+  img {
+    max-height: 75px; 
+    width: 100%;
+  }
+ }
