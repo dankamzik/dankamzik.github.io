@@ -9,7 +9,7 @@
 title: Dan Kamzik's Main Site
 email: dankamzikdev@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Dan Kamzik's Development Technology Blog
+  Dan Kamzik Development Technology Blog
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://danielkamzik.com" # the base hostname & protocol for your site
 github_username:  jekyll
