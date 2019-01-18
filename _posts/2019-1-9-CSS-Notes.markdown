@@ -15,7 +15,6 @@ So, here goes - CSS!
 
 As a side note to any who may be reading, the below is a free manual on Cascading Style Sheets. The notes begin with CSS basics and progressively become more in depth as the sections build upon one another. Enjoy!
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 ## CSS SHORTHAND:
 
@@ -224,7 +223,7 @@ Justify Content:
      
   ```
 
-  Say I wanted to make one element larger than another. I would select the emelent in question and then create a css rule that dictates
+  Say I wanted to make one element larger than another. I would select the element in question and then create a css rule that dictates
   the element in question as flex-grow:3/4/5; etc.
 
 ## Flex-basis:
