@@ -124,7 +124,7 @@ h1.post-title{
       padding: 200px 0;
       .beauty {
 font-family:'NimbusSan';
-font-weight:100;
+font-weight:60;
 color:#F5EDD9;
       }
       .utility {
@@ -154,6 +154,7 @@ color:$brand-color;
   max-width: 1000px;
   margin: 0 auto;
 }
+
 .intro-section.section h1{
   font-family:'DiplomaScript';
   font-weight: 400;
@@ -442,10 +443,23 @@ h1, h2, h3, h4, h5, h6 {
 /*Websites Sub-Page Styling*/
  .logo-container .logo-item {
   display: inline-block;
-  width: 24%; 
+  width: 24%;
   padding: 25px;
   img {
-    max-height: 150px; 
+    max-height: 150px;
     width: 100%;
   }
+ }
+
+ .page-content {
+     padding: 3em;
+     margin-bottom: 25em;
+ }
+
+ h1.page-title{
+   text-align: center;
+ }
+
+ a.site-title{
+  text-align: center;
  }
