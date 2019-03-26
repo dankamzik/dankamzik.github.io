@@ -463,3 +463,10 @@ h1, h2, h3, h4, h5, h6 {
  a.site-title{
   text-align: center;
  }
+
+ @media only screen and (max-width: 600px) {
+  .page-content {
+    padding: 2em;
+    margin-bottom: 2em;
+}
+ }
