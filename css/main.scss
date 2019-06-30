@@ -121,7 +121,7 @@ h1.post-title{
       text-align: center;
       font-size:10em;
       margin-bottom: 0;
-      padding: 200px 0;
+      //padding: 200px 0;
       .beauty {
 font-family:'NimbusSan';
 font-weight:60;
@@ -145,14 +145,26 @@ color:$brand-color;
 
 .home .intro-section.section{
   padding-bottom: 8em;
-  padding-top:2em;
+  padding-top:4em;
   color:#F0D6B5;
+    p{
+      max-width: 66%;
+    }
+      img{
+        vertical-align: middle;
+        border-style: none;
+        max-width: 300px;
+        max-height: 250px;
+        margin-left: 20px;
+        margin-top: 8px;
+      }
 }
 
 .home .intro-section.section .intro{
   padding-top: 75px;
   max-width: 1000px;
   margin: 0 auto;
+  display: flex;
 }
 
 .intro-section.section h1{
@@ -254,11 +266,6 @@ div.individual-button p{
   margin-top: 25px;
 }
 
-.page-content{
-  padding: 0;
-  margin: 0;
-}
-
 .contact-section p{
   margin:0;
 }
@@ -346,6 +353,9 @@ a:visited{
     overflow: hidden;
     text-align: center;
     display: block;
+      .info{
+        display: flex;
+      }
   }
   .home {
     .banner-section {
@@ -373,6 +383,9 @@ a:visited{
         }
       }
     }
+  }
+  .container .contact-section.section p{
+    padding: 25px 0 0 0;
   }
  }
 
@@ -453,7 +466,6 @@ h1, h2, h3, h4, h5, h6 {
 
  .page-content {
      padding: 3em;
-     margin-bottom: 25em;
  }
 
  h1.page-title{
