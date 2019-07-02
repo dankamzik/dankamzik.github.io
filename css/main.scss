@@ -89,6 +89,20 @@ $on-laptop:        800px;
         "syntax-highlighting"
 ;
 
+
+//global header styling
+
+a.home-button{
+  color: #F0D6B5;
+  border: 2px solid #F0D6B5;
+  padding: 12px;
+  font-weight: bold;
+  margin-top: 25px;
+    &:hover{
+      color: #F0D6B5;
+    }
+}
+
 body {
   //background-color: $black !important;
   background-color: #111111 !important;
@@ -454,6 +468,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*Websites Sub-Page Styling*/
+
+.site-header{
+  border: none;
+}
+
 .logo-container .logo-item {
   display: inline-block;
   width: 40%;
@@ -471,14 +490,24 @@ h1, h2, h3, h4, h5, h6 {
 
  header.page-header{
    margin-bottom: 50px;
+    &.site-header{
+      border: none;
+    }
  }
 
  h1.page-title{
    text-align: center;
+   display: none;
  }
 
  a.site-title{
+  font-family: helvetica;
   text-align: center;
+  color: #f5edd9 !important;
+  border: 2px solid #f5edd9;
+  background: black;
+  padding: 12px 6px 12px 6px;
+  margin-top: 2em;
  }
 
 .practice-logo-container {
@@ -486,6 +515,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 10em;
     width: 100%;
     margin-top: 1em;
+    margin-bottom: 2.5em;
     background-color: #fff;
     display: block;
      & a{
@@ -504,6 +534,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 1em;
     background-color: #fff;
     display: block;
+    margin-bottom: 2.5em;
      & a{
       width: 100%;
       height: 100%;
@@ -518,6 +549,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 10em;
     width: 100%;
     margin-top: 1em;
+    margin-bottom: 2.5em;
     background-color: #1b421a;
     display: block;
     & a{
@@ -533,6 +565,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 10em;
     width: 100%;
     margin-top: 1em;
+    margin-bottom: 2.5em;
     background-color: #fff;
     display: block;
     & a{
@@ -549,6 +582,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 10em;
     width: 100%;
     margin-top: 1em;
+    margin-bottom: 2.5em;
     background-color: #41c7f2;
     display: block;
     & a{
