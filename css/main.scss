@@ -595,6 +595,7 @@ h1, h2, h3, h4, h5, h6 {
       display: block;
       background-image: url(/assets/img/logo_wingTsun.png);
       background-position: center;
+      background-size: contain; 
       background-repeat: no-repeat;
     }
   }
