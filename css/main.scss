@@ -450,7 +450,7 @@ a:visited{
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #1111111;
+    background: #111111;
 }
 
 /*BLOG PAGE STYLING*/
@@ -517,13 +517,15 @@ h1, h2, h3, h4, h5, h6 {
  }
 
 .practice-logo-container {
-  .logo-item{
+  .logo-banner {
     height: 10em;
     width: 100%;
     margin-top: 1em;
     margin-bottom: 2.5em;
-    background-color: #fff;
     display: block;
+  }
+  .banner-siw{
+    background-color: #fff;
      & a{
       width: 100%;
       height: 100%;
@@ -535,12 +537,7 @@ h1, h2, h3, h4, h5, h6 {
      }
   }
   .banner-ncpsg{
-    height: 10em;
-    width: 100%;
-    margin-top: 1em;
     background-color: #fff;
-    display: block;
-    margin-bottom: 2.5em;
      & a{
       width: 100%;
       height: 100%;
@@ -552,12 +549,7 @@ h1, h2, h3, h4, h5, h6 {
      }
   }
   .banner-lg{
-    height: 10em;
-    width: 100%;
-    margin-top: 1em;
-    margin-bottom: 2.5em;
     background-color: #1b421a;
-    display: block;
     & a{
       width: 100%;
       height: 100%;
@@ -585,17 +577,23 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
   .banner-bb{
-    height: 10em;
-    width: 100%;
-    margin-top: 1em;
-    margin-bottom: 2.5em;
     background-color: #41c7f2;
-    display: block;
     & a{
       width: 100%;
       height: 100%;
       display: block;
       background-image: url(/assets/img/logo_beachball.PNG);
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+  .banner-wt{
+    background-color: #fff;
+    & a{
+      width: 100%;
+      height: 100%;
+      display: block;
+      background-image: url(/assets/img/logo_wingTsun.png);
       background-position: center;
       background-repeat: no-repeat;
     }
