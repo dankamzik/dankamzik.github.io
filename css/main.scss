@@ -548,6 +548,18 @@ h1, h2, h3, h4, h5, h6 {
       background-size: contain;
      }
   }
+  .banner-svpp{
+    background-color: #fff;
+     & a{
+      width: 100%;
+      height: 100%;
+      display: block;
+      background-image: url(/assets/img/logo_svpp.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+     }
+  }
   .banner-lg{
     background-color: #1b421a;
     & a{
@@ -560,12 +572,7 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
   .banner-fwc{
-    height: 10em;
-    width: 100%;
-    margin-top: 1em;
-    margin-bottom: 2.5em;
     background-color: #fff;
-    display: block;
     & a{
       width: 100%;
       height: 100%;
